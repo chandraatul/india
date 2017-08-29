@@ -2,7 +2,7 @@
 - hosts: all
   tasks:
   - name: create
-    command: mkdir topi 
+    command: touch topi 
   - copy:
-     src: /home/atul/Documents/linux.jpg
-     dest: /home/vagrant/topi/a.jpg
+     src: topi
+     dest: hat
